@@ -26,16 +26,16 @@ namespace lambda_practice
                 context.Departments.ForEachAsync(d => Console.WriteLine(d.Name));
                 context.Employees.ForEachAsync(e => Console.WriteLine($"{e.FirstName} {e.LastName}"));
 
-                //1. List all employees whose departament has an office in Chihuahua
+                //1. List all employees whose department has an office in Chihuahua
 
 
-                //2. List all departaments and the number of employees that belong to each department.
+                //2. List all departments and the number of employees that belong to each department.
 
 
-                //3. List all remote employees. That is all employees whose living city is not the same one as their department's.
+                //3. List all remote employees. That is all employees whose living city is not in the list of cities of their department's.
 
 
-                //4. List all employees whose hire aniversary is next month.
+                //4. List all employees whose hire anniversary is next month.
 
 
                 //5. List all 12 months of the year and the number of employees hired on each month.
